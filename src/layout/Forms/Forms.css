@@ -1,0 +1,25 @@
+ .parent{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper{
+    max-height: auto;
+    height: 38rem;
+    width: 30rem;
+    
+    margin-top: 4%;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.date-pic{
+    margin: 0 0 1rem 0;
+}
+.main__head{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}

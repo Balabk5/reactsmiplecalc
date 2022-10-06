@@ -1,0 +1,42 @@
+.main__wrapper{
+    height: 450vh;
+    width: 100%;
+    background-color: aliceblue;
+    
+    
+}
+.wrapper__list{
+    height: 20rem;
+    width: 20rem;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.item__img{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.listItem__section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    padding: 4rem 0 0 5rem ;
+    
+}
+.list__subhed{
+    font-weight: 600;
+    
+}
+.main__heding{
+    text-align: center;
+}
+
+.input__cont{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
